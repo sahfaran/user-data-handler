@@ -11,27 +11,27 @@ This project is a Node.js application using the Express.js framework and MongoDB
 
 ## Pre-requisite
 1. Install Node JS and NPM (Ubuntu):
-   Install Curl
-      sudo apt install curl
-   b. curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
-   c. nvm --version
-   d. source ~/.bashrc
-   e. nvm ls-remote
-   f. nvm install v18.x.x
-   g. npm install -g npm@9.x.x
+   - Install Curl
+      `sudo apt install curl`
+   - `curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash`
+   - `nvm --version`
+   - `source ~/.bashrc`
+   - `nvm ls-remote`
+   - `nvm install v18.x.x`
+   - `npm install -g npm@9.x.x`
 3. Install MongoDB (Ubuntu):
    https://www.mongodb.com/docs/manual/administration/install-community/
-   a. sudo apt-get install gnupg curl
-   b. curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \
+   - `sudo apt-get install gnupg curl`
+   - `curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \
    sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg \
-   --dearmor
-   c. echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
-   d. sudo apt-get update
-   e. sudo apt-get install -y mongodb-org
+   --dearmor`
+   - `echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list`
+   - `sudo apt-get update`
+   - `sudo apt-get install -y mongodb-org`
 4. Launch MongoDB:
-   a. sudo systemctl start mongod
-   b. sudo systemctl status mongod (check status)
-   c. mongosh
+   - sudo systemctl start mongod
+   - sudo systemctl status mongod (check status)
+   - mongosh
    
 ## Installation
 
