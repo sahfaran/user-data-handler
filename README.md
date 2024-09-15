@@ -29,16 +29,16 @@ This project is a Node.js application using the Express.js framework and MongoDB
    - `sudo apt-get update`
    - `sudo apt-get install -y mongodb-org`
 4. Launch MongoDB:
-   - sudo systemctl start mongod
-   - sudo systemctl status mongod (check status)
-   - mongosh
+   - `sudo systemctl start mongod`
+   - `sudo systemctl status mongod` (check status)
+   - `mongosh`
    
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/sahfaran/user-data-handler.git
-2. cd user-data-handler
-3. npm install
-4. npm start
+   - `git clone https://github.com/sahfaran/user-data-handler.git`
+2. `cd user-data-handler`
+3. `npm install`
+4. `npm start`
 
    
